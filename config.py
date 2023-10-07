@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "bdc3c6a7790d44b6a346a5cdac79c56f")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001968465434"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "XYZUZUX")
+OWNER = os.environ.get("OWNER", "BriGadeVoLeoN")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://tuwulpxf:BG97MLQqd0Uo11qKS_8ZI5ijR2Ci8LgL@babar.db.elephantsql.com/tuwulpxf")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001580326058"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001788226478"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001921274028"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
